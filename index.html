@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuLens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navBar">
+            <h1 class="logo">DocuLens.</h1>
+            <button class="login-btn">Login</button>
+        </nav>
+        <div class="upload-section">
+            <h2>Extract Data from PDFs instantly.</h2>
+            <p>Upload your financial reports or invoices, and let AI do the heavy lifting.</p>
+
+            <div class="drop-zone" id="dropZone">
+                <span class="icon">📃</span>
+                <h3>Drag & Drop your PDF Here</h3>
+                <p>or</p>
+
+                <!-- Adding new hidden input field -->
+                <input type="file" id="fileInput" accept=".pdf" hidden>
+
+                <button class="browse-btn">Browse-Files</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- for create a js file automatically in folder
+    Link JS in html -> Ctrl + Click file name -> Create File -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
